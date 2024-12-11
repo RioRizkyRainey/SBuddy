@@ -61,5 +61,5 @@ BarChartView(
 
 ---
 
-For more details, refer to the main [Subscription App README](https://github.com/RioRizkyRainey/SBuddy/README.md).
+For more details, refer to the main [Subscription App README](https://github.com/RioRizkyRainey/SBuddy/blob/main/README.md).
 

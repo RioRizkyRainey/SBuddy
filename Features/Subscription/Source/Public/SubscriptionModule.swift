@@ -9,7 +9,8 @@ import SwiftUI
 
 public struct SubscriptionModule {
     
-    // TODO: Documentation
+    // Keep the module loose coupling, not dependant.
+    // Other module that want to access subscription view, no need to know how the inside.
     public static func subscribeView() -> any View {
         return SubscribeRouter.make()
     }

@@ -56,5 +56,5 @@ struct SBuddyApp: App {
 
 ---
 
-For more details, refer to the main [SBuddy App README](https://github.com/RioRizkyRainey/SBuddy/README.md).
+For more details, refer to the main [SBuddy App README](https://github.com/RioRizkyRainey/SBuddy/blob/main/README.md).
 

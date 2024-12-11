@@ -21,10 +21,10 @@ Reusability: Libraries can be reused across various projects, reducing redundant
 1. ### Features
 
     - **Subscription**: Contains SubscribeView, the primary view responsible for rendering the subscription UI.
-    See Subscription Module Documentation Libraries
+    [See Subscription Module Documentation Libraries](https://github.com/RioRizkyRainey/SBuddy/blob/main/Features/Subscription/Source/Subscription.docc/Subscription.md)
 
     - **BarView**: Contains BarChartView and its configuration, used to render animated bar charts in SubscribeView.
-    See BarView Module Documentation
+    [See BarView Module Documentation](https://github.com/RioRizkyRainey/SBuddy/blob/main/Libraries/BarView/Source/BarView.docc/BarView.md)
 
 ## Independent Module Testing
 A significant benefit of the modular architecture is that each module has its own scheme.

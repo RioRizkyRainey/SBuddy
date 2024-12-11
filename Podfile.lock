@@ -1,0 +1,22 @@
+PODS:
+  - BarView (0.0.1)
+  - Subscription (0.0.1):
+    - BarView
+
+DEPENDENCIES:
+  - BarView (from `Libraries/BarView/.module.podspec`)
+  - Subscription (from `Features/Subscription/.module.podspec`)
+
+EXTERNAL SOURCES:
+  BarView:
+    :path: Libraries/BarView/.module.podspec
+  Subscription:
+    :path: Features/Subscription/.module.podspec
+
+SPEC CHECKSUMS:
+  BarView: bc3edb99f1f88d1366d2c64f69a1785e028f385f
+  Subscription: 44389d187e1f88d7b279557904d4c051cad469f7
+
+PODFILE CHECKSUM: 25f18f2c167c08420c6a17f5a90834881233347c
+
+COCOAPODS: 1.16.2

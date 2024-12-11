@@ -1,0 +1,35 @@
+{
+  "name": "Subscription",
+  "version": "0.0.1",
+  "summary": "Description of Subscription",
+  "homepage": "https://github.com/RioRizkyRainey/SBuddy.git",
+  "license": "MIT",
+  "authors": {
+    "iOS Team": "ios-team@speakbuddy.com"
+  },
+  "platforms": {
+    "ios": "16.0"
+  },
+  "swift_versions": "5.0",
+  "source": {
+    "git": "https://github.com/RioRizkyRainey/SBuddy.git",
+    "branch": "master"
+  },
+  "source_files": [
+    "Source",
+    "Source/**/*.{swift}"
+  ],
+  "public_header_files": "Source/**/*.h",
+  "exclude_files": [
+    "UnitTests",
+    "Demo"
+  ],
+  "resources": "Source/**/*.{xib,xcassets,png,pdf,json   }",
+  "static_framework": true,
+  "dependencies": {
+    "BarView": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

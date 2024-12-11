@@ -1,15 +1,15 @@
 //
-//  SBuddyApp.swift
-//  SBuddy
+//  SubscriptionApp.swift
+//  Subscription
 //
-//  Created by Rio Rizky Rainey Ferbiansyah on 06/12/24.
+//  Created by Rio Rizky Rainey Ferbiansyah on 09/12/24.
 //
 
 import SwiftUI
 import Subscription
 
 @main
-struct SBuddyApp: App {
+struct SubscriptionApp: App {
     var body: some Scene {
         WindowGroup {
             AnyView(

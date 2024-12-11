@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SBuddy.xcodeproj">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Features">
+      <FileRef
+         location = "group:Features/Subscription/Subscription.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Libraries"
+      name = "Libraries">
+      <FileRef
+         location = "group:BarView/BarView.xcodeproj">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

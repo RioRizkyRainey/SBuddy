@@ -1,0 +1,6 @@
+framework module Subscription {
+  umbrella header "Subscription-umbrella.h"
+
+  export *
+  module * { export * }
+}

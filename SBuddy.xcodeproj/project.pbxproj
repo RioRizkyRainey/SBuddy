@@ -6,6 +6,17 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		973631FA2D06B15100701403 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973631F62D06B15100701403 /* ContentView.swift */; };
+		973631FB2D06B15100701403 /* SBuddyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973631F82D06B15100701403 /* SBuddyApp.swift */; };
+		973632002D06B15500701403 /* SBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973631FE2D06B15500701403 /* SBuddyTests.swift */; };
+		973632042D06B15800701403 /* SBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973632012D06B15800701403 /* SBuddyUITests.swift */; };
+		973632052D06B15800701403 /* SBuddyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973632022D06B15800701403 /* SBuddyUITestsLaunchTests.swift */; };
+		9C289BA78404596B1CD441E2 /* Pods_SBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6454D7CC6A879AE6AA4961B9 /* Pods_SBuddyTests.framework */; };
+		E7CEC0C30824E59856F499B6 /* Pods_SBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA909C3B6CD7A92239C48465 /* Pods_SBuddy.framework */; };
+		F2DAC2CDF33C619079F11EDD /* Pods_SBuddy_SBuddyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57495E6265223E75D2F46E6F /* Pods_SBuddy_SBuddyUITests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		973631C72D02E36000701403 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,34 +35,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C00B40714CCC93956AE50AC /* Pods-SBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBuddy.debug.xcconfig"; path = "Target Support Files/Pods-SBuddy/Pods-SBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		41312FE1149B12B5EB81BA0A /* Pods-SBuddyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBuddyTests.debug.xcconfig"; path = "Target Support Files/Pods-SBuddyTests/Pods-SBuddyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57495E6265223E75D2F46E6F /* Pods_SBuddy_SBuddyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBuddy_SBuddyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5894D321A8FBD88C309FAB0E /* Pods-SBuddy-SBuddyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBuddy-SBuddyUITests.release.xcconfig"; path = "Target Support Files/Pods-SBuddy-SBuddyUITests/Pods-SBuddy-SBuddyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6454D7CC6A879AE6AA4961B9 /* Pods_SBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		973631B52D02E35D00701403 /* SBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		973631C62D02E36000701403 /* SBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		973631D02D02E36000701403 /* SBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		973631F62D06B15100701403 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		973631F72D06B15100701403 /* SBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SBuddy.entitlements; sourceTree = "<group>"; };
+		973631F82D06B15100701403 /* SBuddyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBuddyApp.swift; sourceTree = "<group>"; };
+		973631FE2D06B15500701403 /* SBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBuddyTests.swift; sourceTree = "<group>"; };
+		973632012D06B15800701403 /* SBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBuddyUITests.swift; sourceTree = "<group>"; };
+		973632022D06B15800701403 /* SBuddyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBuddyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA909C3B6CD7A92239C48465 /* Pods_SBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58F16ECEA4FF629C68C7DAF /* Pods-SBuddyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBuddyTests.release.xcconfig"; path = "Target Support Files/Pods-SBuddyTests/Pods-SBuddyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE6BFF21C49C45C9D47909C4 /* Pods-SBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBuddy.release.xcconfig"; path = "Target Support Files/Pods-SBuddy/Pods-SBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		E75F0A6978780AFE3E534159 /* Pods-SBuddy-SBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBuddy-SBuddyUITests.debug.xcconfig"; path = "Target Support Files/Pods-SBuddy-SBuddyUITests/Pods-SBuddy-SBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		973631B72D02E35D00701403 /* SBuddy */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SBuddy;
-			sourceTree = "<group>";
-		};
-		973631C92D02E36000701403 /* SBuddyTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SBuddyTests;
-			sourceTree = "<group>";
-		};
-		973631D32D02E36000701403 /* SBuddyUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SBuddyUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		973631B22D02E35D00701403 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7CEC0C30824E59856F499B6 /* Pods_SBuddy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C289BA78404596B1CD441E2 /* Pods_SBuddyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2DAC2CDF33C619079F11EDD /* Pods_SBuddy_SBuddyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,10 +86,12 @@
 		973631AC2D02E35D00701403 = {
 			isa = PBXGroup;
 			children = (
-				973631B72D02E35D00701403 /* SBuddy */,
-				973631C92D02E36000701403 /* SBuddyTests */,
-				973631D32D02E36000701403 /* SBuddyUITests */,
+				973631F92D06B15100701403 /* SBuddy */,
+				973631FF2D06B15500701403 /* SBuddyTests */,
+				973632032D06B15800701403 /* SBuddyUITests */,
 				973631B62D02E35D00701403 /* Products */,
+				DEB35611DE268EDBAB8E7FD2 /* Pods */,
+				D600A7BDAC9944DBCDB716E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +105,64 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		973631F42D06B15100701403 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		973631F92D06B15100701403 /* SBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				973631F42D06B15100701403 /* Preview Content */,
+				973631F62D06B15100701403 /* ContentView.swift */,
+				973631F72D06B15100701403 /* SBuddy.entitlements */,
+				973631F82D06B15100701403 /* SBuddyApp.swift */,
+			);
+			path = SBuddy;
+			sourceTree = "<group>";
+		};
+		973631FF2D06B15500701403 /* SBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				973631FE2D06B15500701403 /* SBuddyTests.swift */,
+			);
+			path = SBuddyTests;
+			sourceTree = "<group>";
+		};
+		973632032D06B15800701403 /* SBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				973632012D06B15800701403 /* SBuddyUITests.swift */,
+				973632022D06B15800701403 /* SBuddyUITestsLaunchTests.swift */,
+			);
+			path = SBuddyUITests;
+			sourceTree = "<group>";
+		};
+		D600A7BDAC9944DBCDB716E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA909C3B6CD7A92239C48465 /* Pods_SBuddy.framework */,
+				57495E6265223E75D2F46E6F /* Pods_SBuddy_SBuddyUITests.framework */,
+				6454D7CC6A879AE6AA4961B9 /* Pods_SBuddyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEB35611DE268EDBAB8E7FD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C00B40714CCC93956AE50AC /* Pods-SBuddy.debug.xcconfig */,
+				CE6BFF21C49C45C9D47909C4 /* Pods-SBuddy.release.xcconfig */,
+				E75F0A6978780AFE3E534159 /* Pods-SBuddy-SBuddyUITests.debug.xcconfig */,
+				5894D321A8FBD88C309FAB0E /* Pods-SBuddy-SBuddyUITests.release.xcconfig */,
+				41312FE1149B12B5EB81BA0A /* Pods-SBuddyTests.debug.xcconfig */,
+				C58F16ECEA4FF629C68C7DAF /* Pods-SBuddyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,20 +170,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 973631DA2D02E36000701403 /* Build configuration list for PBXNativeTarget "SBuddy" */;
 			buildPhases = (
+				06682F6EC8FC3E438E107575 /* [CP] Check Pods Manifest.lock */,
 				973631B12D02E35D00701403 /* Sources */,
 				973631B22D02E35D00701403 /* Frameworks */,
 				973631B32D02E35D00701403 /* Resources */,
+				F9DE07BA96CA0E44199B4BC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				973631B72D02E35D00701403 /* SBuddy */,
-			);
 			name = SBuddy;
-			packageProductDependencies = (
-			);
 			productName = SBuddy;
 			productReference = 973631B52D02E35D00701403 /* SBuddy.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +189,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 973631DD2D02E36000701403 /* Build configuration list for PBXNativeTarget "SBuddyTests" */;
 			buildPhases = (
+				1E197F0B9F0FF2AE6A8030AB /* [CP] Check Pods Manifest.lock */,
 				973631C22D02E36000701403 /* Sources */,
 				973631C32D02E36000701403 /* Frameworks */,
 				973631C42D02E36000701403 /* Resources */,
@@ -130,12 +199,7 @@
 			dependencies = (
 				973631C82D02E36000701403 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				973631C92D02E36000701403 /* SBuddyTests */,
-			);
 			name = SBuddyTests;
-			packageProductDependencies = (
-			);
 			productName = SBuddyTests;
 			productReference = 973631C62D02E36000701403 /* SBuddyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,21 +208,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 973631E02D02E36000701403 /* Build configuration list for PBXNativeTarget "SBuddyUITests" */;
 			buildPhases = (
+				F426103CFE469811398CABCA /* [CP] Check Pods Manifest.lock */,
 				973631CC2D02E36000701403 /* Sources */,
 				973631CD2D02E36000701403 /* Frameworks */,
 				973631CE2D02E36000701403 /* Resources */,
+				42DD32977493E86E92697757 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				973631D22D02E36000701403 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				973631D32D02E36000701403 /* SBuddyUITests */,
-			);
 			name = SBuddyUITests;
-			packageProductDependencies = (
-			);
 			productName = SBuddyUITests;
 			productReference = 973631D02D02E36000701403 /* SBuddyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -231,11 +292,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06682F6EC8FC3E438E107575 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E197F0B9F0FF2AE6A8030AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SBuddyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42DD32977493E86E92697757 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SBuddy-SBuddyUITests/Pods-SBuddy-SBuddyUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SBuddy-SBuddyUITests/Pods-SBuddy-SBuddyUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SBuddy-SBuddyUITests/Pods-SBuddy-SBuddyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F426103CFE469811398CABCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SBuddy-SBuddyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DE07BA96CA0E44199B4BC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SBuddy/Pods-SBuddy-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SBuddy/Pods-SBuddy-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SBuddy/Pods-SBuddy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		973631B12D02E35D00701403 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973631FA2D06B15100701403 /* ContentView.swift in Sources */,
+				973631FB2D06B15100701403 /* SBuddyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +409,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973632002D06B15500701403 /* SBuddyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +417,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973632042D06B15800701403 /* SBuddyUITests.swift in Sources */,
+				973632052D06B15800701403 /* SBuddyUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,8 +554,9 @@
 		};
 		973631DB2D02E36000701403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C00B40714CCC93956AE50AC /* Pods-SBuddy.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SBuddy/SBuddy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -395,6 +565,7 @@
 				DEVELOPMENT_TEAM = 65JENXSM7K;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -414,18 +585,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.speakbuddy.SBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Debug;
 		};
 		973631DC2D02E36000701403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE6BFF21C49C45C9D47909C4 /* Pods-SBuddy.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = SBuddy/SBuddy.entitlements;
 				CODE_SIGN_STYLE = Automatic;
@@ -434,6 +607,7 @@
 				DEVELOPMENT_TEAM = 65JENXSM7K;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -453,16 +627,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.speakbuddy.SBuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.1;
 			};
 			name = Release;
 		};
 		973631DE2D02E36000701403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41312FE1149B12B5EB81BA0A /* Pods-SBuddyTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +662,7 @@
 		};
 		973631DF2D02E36000701403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C58F16ECEA4FF629C68C7DAF /* Pods-SBuddyTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +686,7 @@
 		};
 		973631E12D02E36000701403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75F0A6978780AFE3E534159 /* Pods-SBuddy-SBuddyUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -531,6 +709,7 @@
 		};
 		973631E22D02E36000701403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5894D321A8FBD88C309FAB0E /* Pods-SBuddy-SBuddyUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

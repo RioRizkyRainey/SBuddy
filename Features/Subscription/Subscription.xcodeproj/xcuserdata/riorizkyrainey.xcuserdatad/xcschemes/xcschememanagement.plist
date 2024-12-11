@@ -4,30 +4,30 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>SBuddy-Main App.xcscheme_^#shared#^_</key>
+		<key>Subscription-Demo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Subscription.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>UnitTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>973631B42D02E35D00701403</key>
+		<key>9736320E2D06CB2500701403</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>973631C52D02E36000701403</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>973631CF2D02E36000701403</key>
+		<key>977DE7F12D06CC09000701DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

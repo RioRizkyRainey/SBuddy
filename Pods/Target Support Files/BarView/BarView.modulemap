@@ -1,0 +1,6 @@
+framework module BarView {
+  umbrella header "BarView-umbrella.h"
+
+  export *
+  module * { export * }
+}

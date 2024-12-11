@@ -23,7 +23,9 @@ Reusability: Libraries can be reused across various projects, reducing redundant
 1. ### Features
 
     - **Subscription**: Contains SubscribeView, the primary view responsible for rendering the subscription UI.
-    [See Subscription Module Documentation Libraries](https://github.com/RioRizkyRainey/SBuddy/blob/main/Features/Subscription/Source/Subscription.docc/Subscription.md)
+    [See Subscription Module Documentation](https://github.com/RioRizkyRainey/SBuddy/blob/main/Features/Subscription/Source/Subscription.docc/Subscription.md)
+
+2. ### Libraries
 
     - **BarView**: Contains BarChartView and its configuration, used to render animated bar charts in SubscribeView.
     [See BarView Module Documentation](https://github.com/RioRizkyRainey/SBuddy/blob/main/Libraries/BarView/Source/BarView.docc/BarView.md)

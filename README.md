@@ -82,7 +82,14 @@ Navigate to the project directory and run:
 ```bash
 pod install
 ```
-Open the .xcworkspace file in Xcode.
 
 ## How to Run
+Open the .xcworkspace file in Xcode.
+
 Run The application with (`SBuddy-Main App`) Scheme
+
+### Important Notes
+If you just want to check via Xcode Preview. Please change the scheme to  (`Subscription`) Scheme. 
+Because the view file located in Subscription module.
+
+![XCode Preview](https://github.com/RioRizkyRainey/SBuddy/blob/main/preview.jpg)

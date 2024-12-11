@@ -8,6 +8,7 @@
 import SwiftUI
 
 // We use this extension to help developer calling the color easily.
+// Because we have more than one module, we should define Bundle. We can define it by the identifier
 extension Color {
     static var topBarColor: Color {
         return Color("top_bar", bundle: Bundle(identifier: "com.speakbuddy.features.Subscription"))

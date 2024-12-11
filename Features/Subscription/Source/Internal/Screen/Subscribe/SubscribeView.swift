@@ -67,7 +67,7 @@ struct SubscribeView<ViewModel>: View where ViewModel: SubscribeViewModelSpecs  
                 GeometryReader { geometry in
                     ZStack {
                         
-                        Image("protty")
+                        Image("protty", bundle: Bundle(identifier: "com.speakbuddy.features.Subscription"))
                             .resizable()
                             .scaledToFit()
                             .frame(

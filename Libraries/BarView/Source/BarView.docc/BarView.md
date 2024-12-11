@@ -59,6 +59,8 @@ BarChartView(
 1. Select the `BarView` in Xcode Scheme.
 2. And build framework independently without effecting aother module.
 
+![Barview Scheme](https://github.com/RioRizkyRainey/SBuddy/blob/main/Libraries/BarView/Source/BarView.docc/Resources/scheme.png)
+
 ---
 
 For more details, refer to the main [Subscription App README](https://github.com/RioRizkyRainey/SBuddy/blob/main/README.md).

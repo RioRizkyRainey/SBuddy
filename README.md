@@ -92,4 +92,4 @@ Run The application with (`SBuddy-Main App`) Scheme
 If you just want to check via Xcode Preview. Please change the scheme to  (`Subscription`) Scheme. 
 Because the view file located in Subscription module.
 
-![XCode Preview](https://github.com/RioRizkyRainey/SBuddy/blob/main/preview.jpg)
+![XCode Preview](https://github.com/RioRizkyRainey/SBuddy/blob/main/preview.png)

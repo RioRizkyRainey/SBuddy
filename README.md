@@ -6,6 +6,7 @@ This project demonstrates the use of SwiftUI to create a responsive and animated
 ## Architecture
 ### Modular Architecture
 ![Modular Architecture Chart](https://github.com/RioRizkyRainey/SBuddy/blob/main/Modular.jpg)
+
 The project is divided into two main groups:
 
 1. **Features**: Contains app-specific modules that deliver functionality directly tied to the application.
@@ -80,3 +81,6 @@ Navigate to the project directory and run:
 pod install
 ```
 Open the .xcworkspace file in Xcode.
+
+## How to Run
+Run The application with (`SBuddy-Main App`) Scheme
